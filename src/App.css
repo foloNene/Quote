@@ -16,3 +16,14 @@
   justify-content: space-around;
   margin: 15px;
 }
+
+.Del {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}

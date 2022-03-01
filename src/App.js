@@ -56,7 +56,10 @@ function App(){
       <div className="Card">
         <div>{props.id}.</div>
         <div>Quote:{props.quote}</div>
-        <button>Delete</button>
+        <div className="Delete" >
+          <button className="Del">Delete</button>
+        </div>
+        
       </div>
       
     ))}

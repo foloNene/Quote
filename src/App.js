@@ -16,6 +16,10 @@ function App(){
       id:2,
       quote:"Happiness id free"
     },
+    {
+      id:3,
+      quote:"Do what makes you happy"
+    },
   ]);
 
   //Function for Posting;

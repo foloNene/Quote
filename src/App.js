@@ -34,6 +34,12 @@ function App(){
     setText("");
   }
 
+  //function to delete Items
+  function DeleteItems (id) {
+    const del = word.filter((el)=> el.id !== id);
+    setWord(del);
+  }
+
   // console.log(lsetf)
   // console.log(text)
 
@@ -61,7 +67,9 @@ function App(){
         <div>{props.id}.</div>
         <div>Quote:{props.quote}</div>
         <div className="Delete" >
-          <button className="Del">Delete</button>
+          <button className="Del" onClick={() =>{
+            DeleteItems(props.id)
+          }}>Delete</button>
         </div>
         
       </div>
